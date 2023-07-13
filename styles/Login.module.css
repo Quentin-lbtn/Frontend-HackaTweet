@@ -1,0 +1,88 @@
+/* @font-face {
+	font-family: "Mont Heavy";
+	src: url('/public/fonts/Mont-Heavy.ttf');
+} */
+
+.mainContent {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.leftContainer {
+    background-image: url(../public/images/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    
+}
+
+.rightContainer {
+    background-color:#15202b;
+    padding: 30px;
+    width:60%
+}
+
+.logo {
+    transform: scaleY(-1) scaleX(-1);
+  }
+
+.h1 {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 4rem;
+  }
+
+  .content {
+    width: 550px;
+  
+  }
+
+  .h2 {
+    color: white;
+    font-size: 2rem;
+  }
+
+  .buttonsignup {
+
+    width: 200px;
+    height: 40px;
+    background-color: #3f9bf0;
+    border-radius: 30px;
+    color: white;
+    border-color: none;
+    margin-bottom: 30px;
+
+  }
+
+  .buttonsignin {
+
+    width: 200px;
+    height: 40px;
+    background-color: #15202b;
+    color: #3f9bf0;
+    border-radius: 30px;
+    border-color: none;
+    margin-top: 30px;
+
+  }
+
+  .p{
+    margin: 0px;
+    font-size: 1rem;
+  }
+
+  .popoverSignUpContent {
+    padding: 0px;    
+    background-color: #15202b;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  

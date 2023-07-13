@@ -1,0 +1,9 @@
+.logo {
+    transform: scaleY(-1) scaleX(-1);
+  }
+
+.signupContainer {
+    display: flex;
+    background-color:#15202b;
+
+}
