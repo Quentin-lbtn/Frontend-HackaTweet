@@ -1,5 +1,5 @@
 import { useState} from 'react';
-
+import Trends from './Trends'
 import Head from 'next/head';
 import twitter from '../public/images/twitter-512.png';
 import Image from 'next/image';
@@ -32,11 +32,12 @@ function Home () {
                             <button onClick={() => handleSaveTweet ()} id ='saveTweet'>Tweet</button>
                         </div>
                     </div>
+                    <div clas></div>
                 </div>
                 <div className={styles.rightContent}>
                     <div className={styles.trends}>
                             <h2 className = {styles.h2}>Trends</h2>
-                            {/* AJOUTER COMPOSANT TRENDS */}
+                            <Trends></Trends>
                     </div>
                 </div>
             </div>
