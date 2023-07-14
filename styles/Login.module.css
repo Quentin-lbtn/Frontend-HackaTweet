@@ -7,7 +7,7 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    color: white;
+    background-color:#15202b;
 }
 
 .leftContainer {
@@ -22,7 +22,6 @@
 }
 
 .rightContainer {
-    background-color:#15202b;
     padding: 30px;
     width:60%
 }
